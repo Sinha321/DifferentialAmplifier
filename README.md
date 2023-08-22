@@ -41,10 +41,15 @@
 
   Verify the gain by the formula
   * Av= -gmn(roN || roP)
-    
+
 #### Waveform
 * Differential input and Differential output
 
   ![lt2](https://github.com/Sinha321/DifferentialAmplifier/assets/116704941/2b50ef58-bdc7-4237-943f-76181c713cfb)
 
+  
+### Applications of Differential Amplifiers
+#### Generally, we use differential amplifier that acts as a volume control circuit. The differential operational amplifier can be used as an automatic gain control circuit. Some of the differential operational amplifier can be used for Amplitude modulation.
+#### Differential amplifiers provide increase noise immunity: When using differential amplifiers, it responds to the only difference signal between input terminals and also ignores all common-mode signals such as noise pick–up and the ground voltage.
+    
 
