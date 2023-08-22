@@ -21,6 +21,24 @@
   
   ![DA2](https://github.com/Sinha321/DifferentialAmplifier/assets/116704941/2042a0aa-4c96-4722-9e8c-378526bc0061)
 
-#### Analysis
-* Vton = 0.7V   kn=60uA/V^2   lambda(n) = 0.08V-1   Ln = 5um   W1-2 = 22um  W3
-* 
+#### Procedure
+  * Apply DC biasing @VG1-2 = 2.5V to the gate of M1-2 and superimpose sinusoidal inputs Vin1 of 10mVp-p @1KHz and Vin2 of -10mVp-p @1KHz.
+  * Also apply DC biasing VG3 = 1.4V to the gate of M5 and Vg4 = 3.6V to the gates of M3 and M4
+  * Using .op statement ,note down the value of ID1-2,VGS1-2,VDS1-2,VSG3-4,VSD3-4 etc
+  * Comment .op statement and use tran statement to plot Vid(t)=Vin1(t) - Vin2(t) and Vout(t)
+  * Use .meas statement to note down Vidp-p, Voutp-p and voltage gain 
+
+#### Schematic
+
+![lt1](https://github.com/Sinha321/DifferentialAmplifier/assets/116704941/5eec790c-3ea9-4de6-9b2a-fb9be108dd1b)
+
+#### Calculations 
+* ID1=1/2 * (un * Co * W/L)(VGS1-Vth1)^2 (1+lambda1 * VDS1)
+* |ID3|=1/2 * (up * Co * W/L)(VGS3-|Vth3|)^2 (1+lambda3 * VSD3)
+* gm1= 2ID1/(VGS1-Vth1)
+* ro1= (1+lambda1 * VDS1)/(lambda1 * ID1)
+* ro3= (1+lambda3 * VDS3)/(lambda3 * ID3)
+
+  Verify the gain by the formula
+  * Av= -gmn(roN || roP)
+
