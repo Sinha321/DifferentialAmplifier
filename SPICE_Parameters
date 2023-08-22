@@ -1,0 +1,3 @@
+.model nmos1 nmos(vto=0.7V kp=60u lambda =0.08 L=5u W=22u gamma=0.4)
+.model nmos5 nmos(vto=0.7V kp=60u lambda =0.08 L=5u W=44u gamma=0)
+.model pmos3 pmos(vto=0.7V kp=30u lambda =0.08 L=5u W=44u gamma=0)
