@@ -41,4 +41,10 @@
 
   Verify the gain by the formula
   * Av= -gmn(roN || roP)
+    
+#### Waveform
+* Differential input and Differential output
+
+  ![lt2](https://github.com/Sinha321/DifferentialAmplifier/assets/116704941/2b50ef58-bdc7-4237-943f-76181c713cfb)
+
 
