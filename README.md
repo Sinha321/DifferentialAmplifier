@@ -6,7 +6,7 @@
 * Single input balanced output differential amplifier.
 * Single input unbalanced output differential amplifier.
 
-### Two Active Loads for Differential Amplifiers:
+### Active Load Configurations for Differential Amplifiers:
 1. Current mirror load
 2. Current source load
 3. Diode Connected Load
